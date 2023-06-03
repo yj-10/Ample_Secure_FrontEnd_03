@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.div_footer_container {
+  padding: 20px;
+  /* background-image: linear-gradient(181deg, black, transparent); */
+  background: linear-gradient(
+    178.77deg,
+    #4a90b8 4.21%,
+    rgba(0, 124, 196, 0.244792) 127.03%,
+    rgba(12, 111, 168, 0) 166.84%
+  );
+}
+.div_footer_container p {
+  color: white;
+  font-weight: 510;
+  letter-spacing: 0.4px;
+}
+.div_footer_container .div_footer_title img {
+  border: 1px solid white !important;
+  border-radius: 34px;
+  padding: 5px 10px;
+  width: 200px;
+  height: 55px;
+}
+.div_footer_container .div_footer_title h1 {
+  color: white;
+  text-align: start;
+  padding: 10px 20px;
+}
+.div_footer_container ul li {
+  list-style-type: none;
+  display: block;
+  position: relative;
+}
+.div_footer_container ul li a {
+  text-decoration: none;
+  color: white;
+  text-align: start;
+  font-weight: 340;
+}
+
+.div_footer_box {
+  display: flex;
+  background-color: #005598;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.div_footer_box .div_footer_copyright p {
+  color: white;
+  text-align: start;
+  font-weight: 450;
+  position: relative;
+}
+.div_footer_box .div_footer_privacy_term a {
+  color: white;
+  margin: 0px 10px;
+  font-weight: 450;
+  text-decoration: none;
+  position: relative;
+}
+/* footer icons  */
+/* .div_footer_box ul li a {
+  text-decoration: none;
+  color: #31cce3;
+  margin: 0px 5px;
+  font-size: 14px;
+} */
+/* .div_ul_box li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 10px;
+} */
+
+.div_ul_box li a {
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  /* background: linear-gradient(45deg, #ffba5f93, #ffd971); */
+  display: flex;
+  justify-content: center;
+  margin-right: 7px; 
+  align-items: center;
+  border-radius: 100%;
+  font-size: 14px;
+  transition: 0.3s;
+  background-color: #005598;
+}
